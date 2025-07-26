@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AD Attack Helper</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top Input Bar -->
+<div class="top-bar">
+  <input placeholder="Username" id="username">
+  <input placeholder="Password" id="password">
+  <input placeholder="Domain" id="domain">
+  <input placeholder="DC-IP" id="dc-ip">
+  <input placeholder="Target User" id="target-user">
+  <input placeholder="Target Group" id="target-group">
+</div>
+
+<!-- Main Container -->
+<div class="container">
+  <!-- Left Sidebar: Attributes -->
+  <aside class="sidebar left">
+    <h3>Attributes</h3>
+    <ul id="attributes-list"></ul>
+  </aside>
+
+  <!-- Center Panel -->
+  <section class="main">
+    <h3>Commands</h3>
+    <div id="command-area">
+      <p>Select an attack to view its command...</p>
+    </div>
+  </section>
+
+  <!-- Right Sidebar: Attacks -->
+  <aside class="sidebar right">
+    <h3>Attacks</h3>
+    <ul id="attacks-list"></ul>
+  </aside>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
